@@ -1,0 +1,155 @@
+body{
+    background-color: #F8F8F8;
+}
+
+#gray{
+    margin :1%
+}
+
+img{
+    width: 135px;
+    height: auto;
+}
+
+#top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-weight: normal;
+    margin-bottom: -2px;
+    letter-spacing: 3px;
+}
+
+#gras{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+hr{
+    margin: 40px 0;
+    border-color:#f3f3f325;
+}
+
+#footer__newsletter{
+    border: 1px solid black;
+    width: 32%;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-right: 2%;
+}
+
+#footer__info{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.footer__info--titre--lien{
+    font-weight: bold ;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15%;
+}
+
+.footer__info--titre{
+    width: 17%;
+    margin: 2%;
+}
+
+#promo{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newsletter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+    font-size: 15px;
+    color: rgb(57, 57, 57);
+}
+
+p{
+    color:rgb(60, 60, 60);
+    margin: 20px 0;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+input{
+    padding-left: 15px;
+    display: flex;
+    margin: 20px 0;
+    width: 330px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    
+}
+
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#bouton{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    height: 45px;
+    background-color: black;
+    font-size: 15px;
+    color:#ffffff;
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    display: flex;
+}
+
+.réseaux{
+    width: 25px;
+    margin: 15px;
+}
+
+#bottom__footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#text__decoration--white{
+    color:white;
+    margin-right: 20px;
+}
+
+.pay{
+    width: 38px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.app{
+    padding-left: 15px;
+}
