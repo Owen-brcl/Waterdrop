@@ -3,11 +3,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <title>Waterdrop</title>
   </head>
   <body>
     <header>
-      <nav id="menu-header">
+      <nav id="menu-header" class="desktop-nav">
         <div class="menu-header-left">
           <a>
             <img src="./assets/logo.svg" />
@@ -226,6 +230,15 @@
           <img src="./assets/panier.svg" />
         </div>
       </nav>
+
+      <nav class="mobile-nav">
+        <div class="menu-burger"></div>
+        <img src="./assets/search.svg" />
+        <img style="width: 30%; margin: 20px auto" src="./assets/logo.svg" />
+        <img src="./assets/user.svg" />
+        <img src="./assets/panier.svg" />
+      </nav>
+
       <section id="image-pub">
         <section class="bas">
           <h1>Calendrier de l'Avent 2024</h1>
@@ -435,7 +448,7 @@
             <h2>Drink Mote Water, drop plastic.</h2>
           </div>
 
-          <article class="product">
+          <article class="product first">
             <div class="image-container">
               <img src="assets/tenis-bottle.webp" />
             </div>
@@ -452,7 +465,7 @@
             <p class="stars">4.6 5</p>
           </article>
 
-          <article class="product">
+          <article class="product second">
             <div class="image-container">
               <img src="assets/SILA-hydration-set-standing_1.webp" />
             </div>
@@ -628,8 +641,7 @@
       <section class="challenge">
         <p class="challenge-sub-title">DRINK MORE WATER CHALLENGE</p>
         <h2 class="challenge-title">
-          Nous vous lancons un defi: <br />
-          Maintenant buvew plus d'eau des maintenant
+          Nous vous lancons un defi: Maintenant buvez plus d'eau des maintenant
         </h2>
         <p class="challenge-desc">
           Prêts à relever le défi ? Inscrivez-vous à notre newsletter et nous
