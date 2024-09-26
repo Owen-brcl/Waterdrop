@@ -8,13 +8,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    >
     <link href="../style.css" rel="stylesheet" />
     <title></title>
   </head>
   <body>
     <header>
-      <nav id="menu-header">
+      <nav class="desktop-nav" id="menu-header">
         <div class="menu-header-left">
           <a>
             <img src="../assets/logo.svg" />
@@ -241,6 +240,13 @@
           <img src="../assets/search.svg" />
           <img src="../assets/panier.svg" />
         </div>
+      </nav>
+      <nav class="mobile-nav">
+        <div class="menu-burger"></div>
+        <img src="../assets/search.svg" />
+        <img style="width: 30%; margin: 20px auto" src="../assets/logo.svg" />
+        <img src="../assets/user.svg" />
+        <img src="../assets/panier.svg" />
       </nav>
     </header>
     <main>
@@ -658,7 +664,7 @@
       <section class="similar-product">
         <h2>Produits similaires</h2>
 
-        <div>
+        <div class="similar-product-container">
           <article class="product">
             <div class="image-container">
               <img
@@ -702,7 +708,7 @@
       <section class="similar-product">
         <h2>Dernier produits vu</h2>
 
-        <div>
+        <div class="similar-product-container">
           <article class="product">
             <div class="image-container">
               <img src="../assets/SILA-hydration-set-standing_1.webp" />
@@ -745,19 +751,6 @@
             <p class="product-desc">2L Carafe filtrante + 4 filtres</p>
             <p class="stars">4.6 5</p>
             <p class="reduc">-13%</p>
-          </article>
-
-          <article class="product">
-            <div class="image-container">
-              <img src="../assets/LucyClarityPad-Standing-Studio.webp" />
-            </div>
-            <h3 class="product-title">Clarity Pad LUCY</h3>
-            <h5 class="product-price">Des $19.90</h5>
-            <p class="product-desc">
-              Lot de 3, Lot de 6 · Lot de 3, Lot de 6 · Filtre à charbon actif
-              par 1, 3 ou 6
-            </p>
-            <p class="stars">4.8 5</p>
           </article>
         </div>
       </section>

@@ -67,8 +67,13 @@ html {
     background: black;
   }
 
-  #image-pub {
+  #image-pub,
+  #galerie-pub {
     height: 400px !important;
+  }
+
+  #galerie-pub {
+    padding: 10px !important;
   }
 
   #image-pub::after {
@@ -83,6 +88,12 @@ html {
   .bas {
     width: 100% !important;
     margin: 10px !important;
+  }
+
+  #galerie-pub H1 {
+    width: 100%;
+    margin-bottom: -20px;
+    font-size: 26px;
   }
 
   H1 {
@@ -178,7 +189,7 @@ html {
   }
 
   .product-title {
-    font-size: 16px;
+    font-size: 15.5px;
     margin-top: 10px;
   }
 
@@ -276,6 +287,122 @@ html {
 
   .article5 {
     height: 330px !important;
+  }
+
+  .main-galerie {
+    padding: 20px 10px;
+    display: grid;
+    grid: auto / 1fr 1fr;
+  }
+
+  .history {
+    display: none !important;
+  }
+
+  .information-produit-container {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .information-produit-container .left {
+    margin: 0 !important;
+  }
+
+  .information-produit-container .left img,
+  .information-produit-container .left div {
+    display: none !important;
+  }
+
+  .information-produit-container .left img:nth-child(1) {
+    display: block !important;
+    width: 100%;
+  }
+
+  .information-produit-container .right {
+    width: 100%;
+    padding: 0 10px !important;
+    margin: 0 !important;
+  }
+
+  .information-produit-important {
+    grid: auto / 1fr 1fr !important;
+  }
+
+  .information-produit-important::after {
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 33% !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    transform: translateY(-50%);
+  }
+
+  .information-produit-important::before {
+    width: 1px !important;
+    height: 100% !important;
+    left: 50% !important;
+  }
+
+  .meilleurs-ingredients-container h3 {
+    font-size: 20px !important;
+    width: 95%;
+  }
+
+  .meilleurs-ingredients-container p {
+    width: 90% !important;
+  }
+
+  .meilleurs-ingredients-container .ingredients-container {
+    width: 200% !important;
+    transform: translateX(25%);
+  }
+
+  .info-cola-container {
+    margin: 50px 0 50px 0 !important;
+  }
+
+  .info-cola-container .first,
+  .info-cola-container .second {
+    display: flex !important;
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .info-cola-container .second {
+    flex-direction: column !important;
+    margin-bottom: 20px;
+  }
+
+  .info-cola-container .first .video-container,
+  .info-cola-container .second .video-container {
+    width: 95%;
+    left: 0 !important;
+    height: 300px !important;
+  }
+
+  .video-container video {
+    width: 100% !important;
+  }
+
+  .first-info,
+  .second-info {
+    margin: 0 !important;
+    width: 95% !important;
+    gap: 10px !important;
+  }
+
+  .first-info img {
+    width: 60px !important;
+    margin-top: 10px;
+  }
+
+  .similar-product-container {
+    width: 200%;
+    transform: translateX(25%);
   }
 }
 
@@ -500,7 +627,8 @@ li {
   border-radius: 5px;
 }
 
-#image-pub {
+#image-pub,
+#galerie-pub {
   width: 96%;
   height: 600px;
   border-radius: 10px;
@@ -509,7 +637,7 @@ li {
   display: flex;
   align-items: end;
   justify-content: start;
-  background: url("./assets/Calendier\ img.png");
+  background: url("./assets/collection-header-all-flavours-desktop.webp");
   background-size: cover;
   background-position: center;
   position: relative;
