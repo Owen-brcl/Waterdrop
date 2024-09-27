@@ -1,0 +1,137 @@
+body{
+    background-color: #F8F8F8;
+    margin:2% 7%;
+}
+
+
+#nav_barre{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+
+#Waterdrop_Logo{
+    width: 135px;
+    height: auto;
+}
+
+
+#Contact-Us{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.Contact-Us--titre{
+    color:#000000;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 25px;
+    width: 90%;
+    color: #737272;
+}
+
+.contact-informations{
+    display: flex;
+    align-items: center;
+}
+
+.message-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-radius: 25px;
+    padding: 0% 15px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+    width: 300px;
+    margin: 10px;
+    height: 100px;
+}
+
+.infos-2e_ligne{
+    display: flex;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #747474;
+    margin-top: 5px;
+}
+
+.message-logo{
+    width: 30px;
+    height: auto;
+    border: 1px rgba(0, 0, 0, 0.098) solid;
+    background-color: #ECF1F5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{ 
+    padding-left: 15px;
+    display: flex;
+    margin: 20px 0;
+    width: 96%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-radius: 35px;
+    font-size: 15px;
+}
+
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    display: flex;
+    margin: 20px 0;
+    width: 96%;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#AFAFAF;
+}
+
+#bouton{
+    border-radius: 50px;
+    border: 0;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color:#ffffff;
+    text-align: center;
+}
+
+.réseaux{
+    width: 15px;
+    margin: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ECF1F5;
+}

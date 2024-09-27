@@ -507,6 +507,7 @@ html {
     content: "";
     position: absolute;
     top: 50%;
+
     left: 10%;
     transform: translateY(-50%) translateX(-50%) rotate(45deg);
     width: 1px;
@@ -531,6 +532,73 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+  }
+
+  .contact-page {
+    padding: 10% 5% !important;
+  }
+
+  .contact-informations {
+    flex-direction: column;
+  }
+
+  #Contact-Us {
+    padding: 0 !important;
+    flex-direction: column;
+  }
+
+  #Contact-text {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .message-button {
+    flex-direction: column;
+    height: unset !important;
+    padding: 10px !important;
+  }
+
+  .message-button div {
+    text-align: center;
+  }
+
+  .infos-2e_ligne {
+    font-size: 16px !important;
+    display: block !important;
+  }
+
+  .resaux-title {
+    margin: 0 auto;
+  }
+
+  .resaux-container-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #Contact-infos {
+    width: 100% !important;
+  }
+
+  .contact-page .réseaux {
+    width: 40px !important;
+    margin: 5px !important;
+  }
+
+  .resaux-container-contact {
+    margin-top: 30px;
+  }
+
+  .contact-desktop,
+  .resaux-title {
+    display: none !important;
+  }
+
+  .resaux-title-mobile {
+    margin-top: 50px !important;
   }
 }
 
@@ -2133,8 +2201,8 @@ footer h6 {
   display: flex;
 }
 
-.réseaux {
-  width: 25px;
+.contact-page .réseaux {
+  width: 50px;
   margin: 15px;
 }
 
@@ -2165,4 +2233,155 @@ footer h6 {
 
 .mobile-footer {
   display: none;
+}
+
+.contact-page {
+  padding: 2% 3%;
+  background-color: #f8f8f8;
+}
+
+#nav_barre {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+#Waterdrop_Logo {
+  width: 135px;
+  height: auto;
+}
+
+#Contact-Us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10% 0px;
+  padding: 0 5%;
+  width: 100%;
+}
+
+#Contact-infos {
+  width: 40%;
+}
+
+#Contact-text {
+  width: 50%;
+}
+
+.Contact-Us--titre {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+.contact-page h1 {
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-page p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 25px;
+  width: 90%;
+  color: #737272;
+}
+
+.contact-informations {
+  display: flex;
+  align-items: center;
+}
+
+.message-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.098);
+  border-radius: 25px;
+  padding: 0% 15px;
+  background-color: #ffffff;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 10px;
+  width: 300px;
+  margin: 10px;
+  height: 100px;
+}
+
+.message-button div {
+  font-size: 18px;
+}
+
+.infos-2e_ligne {
+  display: flex;
+  font-size: 15px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #747474;
+  margin-top: 5px;
+}
+
+.message-logo {
+  width: 70px;
+  height: auto;
+  border: 1px rgba(0, 0, 0, 0.098) solid;
+  background-color: #ecf1f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-page input {
+  padding: 10px;
+  padding-left: 20px;
+  box-sizing: content-box !important;
+  display: flex;
+  margin: 20px 0;
+  width: 94%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.098);
+  border-radius: 35px;
+  font-size: 20px;
+}
+
+::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.contact-page textarea {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  display: flex;
+  margin: 20px 0;
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.098);
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #afafaf;
+}
+
+#bouton {
+  border-radius: 50px;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.réseaux {
+  width: 15px;
+  margin: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.098);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ecf1f5;
 }
