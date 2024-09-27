@@ -599,6 +599,11 @@ html {
 
   .resaux-title-mobile {
     margin-top: 50px !important;
+    display: flex !important;
+  }
+
+  .contact-mobile {
+    display: flex !important;
   }
 }
 
@@ -2384,4 +2389,9 @@ footer h6 {
   border-radius: 10px;
   padding: 10px;
   background-color: #ecf1f5;
+}
+
+.resaux-title-mobile,
+.contact-mobile {
+  display: none;
 }
