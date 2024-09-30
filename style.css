@@ -2176,7 +2176,8 @@ footer hr {
   color: rgb(57, 57, 57);
 }
 
-footer p {
+footer p,
+.footer-contact {
   color: rgb(60, 60, 60);
   margin: 20px 0;
   padding-left: 15px;
