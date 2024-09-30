@@ -153,7 +153,7 @@ html {
     margin-left: 40px !important;
     overflow: scroll;
     display: block !important;
-    margin: 20px 10px !important;
+    margin: 20px auto !important;
   }
 
   .product-container section {
@@ -443,6 +443,7 @@ html {
     width: 330px;
     overflow-x: scroll;
     padding: 0 !important;
+    margin-top: 30px;
   }
 
   .similar-product-container-mobile {
