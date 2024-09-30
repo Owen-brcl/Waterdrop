@@ -149,10 +149,11 @@ html {
   }
 
   .product-container {
-    width: 300px !important;
+    width: 330px !important;
     margin-left: 40px !important;
     overflow: scroll;
     display: block !important;
+    margin: 20px 10px !important;
   }
 
   .product-container section {
@@ -441,6 +442,7 @@ html {
     display: block !important;
     width: 330px;
     overflow-x: scroll;
+    padding: 0 !important;
   }
 
   .similar-product-container-mobile {
