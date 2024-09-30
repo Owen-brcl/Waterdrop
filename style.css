@@ -22,6 +22,21 @@ html {
     font-size: 21px;
   }
 
+  .image-info {
+    top: 60% !important;
+  }
+
+  .ingredients-container {
+    display: block !important;
+    width: 330px !important;
+    overflow-x: scroll;
+  }
+
+  .ingredients-container-mobile {
+    width: 180% !important;
+    margin: 0 !important;
+  }
+
   .desktop-nav {
     display: none !important;
   }
@@ -134,8 +149,16 @@ html {
   }
 
   .product-container {
-    width: 200% !important;
+    width: 300px !important;
     margin-left: 40px !important;
+    overflow: scroll;
+    display: block !important;
+  }
+
+  .product-container section {
+    width: 200vw !important;
+    align-items: start !important;
+    margin: 0 !important;
   }
 
   .top-seller-info {
@@ -159,7 +182,7 @@ html {
 
   .daily-hydratation-container {
     display: block !important;
-    margin: 50px 20px 20px 20px !important;
+    margin: 50px 20px -240px 20px !important;
     padding: 0 !important;
   }
 
@@ -282,6 +305,17 @@ html {
     font-size: 22px !important;
   }
 
+  .articles-container {
+    display: block !important;
+    width: 330px !important;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  .article-container-mobile {
+    width: 200% !important;
+  }
+
   .articles-container .left {
     display: flex;
     align-items: center;
@@ -364,11 +398,6 @@ html {
     width: 90% !important;
   }
 
-  .meilleurs-ingredients-container .ingredients-container {
-    width: 200% !important;
-    transform: translateX(25%);
-  }
-
   .info-cola-container {
     margin: 50px 0 50px 0 !important;
   }
@@ -409,8 +438,14 @@ html {
   }
 
   .similar-product-container {
-    width: 200%;
-    transform: translateX(25%);
+    display: block !important;
+    width: 330px;
+    overflow-x: scroll;
+  }
+
+  .similar-product-container-mobile {
+    width: 300%;
+    padding: 0 !important;
   }
 
   .desktop-footer {
@@ -1049,6 +1084,16 @@ button:hover {
   margin-top: 20px;
 }
 
+.product-container section {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 20px;
+}
+
 .product {
   width: 100%;
   overflow: hidden;
@@ -1216,6 +1261,7 @@ button:hover {
 .image-container::after {
   content: "Pre-Commander";
   position: absolute;
+  z-index: 99;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -1696,6 +1742,12 @@ p {
   align-items: center;
   gap: 20px;
 }
+.article-container-mobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .left {
   display: grid;
@@ -1974,7 +2026,8 @@ p {
   margin: 10px 0 50px 0;
 }
 
-.meilleurs-ingredients-container .ingredients-container {
+.meilleurs-ingredients-container .ingredients-container,
+.ingredients-container-mobile {
   display: flex;
   width: 100%;
   margin: 0 30px;
@@ -2080,6 +2133,16 @@ p {
 }
 
 .similar-product div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 30px;
+
+  box-sizing: border-box;
+}
+
+.similar-product-container-mobile {
   display: flex;
   align-items: center;
   justify-content: center;
