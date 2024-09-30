@@ -156,7 +156,7 @@ html {
   }
 
   .product-container section {
-    width: 200vw !important;
+    width: 260vw !important;
     align-items: start !important;
     margin: 0 !important;
   }
@@ -444,7 +444,7 @@ html {
   }
 
   .similar-product-container-mobile {
-    width: 300%;
+    width: 260vw;
     padding: 0 !important;
   }
 
