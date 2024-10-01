@@ -2415,8 +2415,7 @@ footer h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10% 0px;
-  padding: 0 5%;
+  margin: 30px 0px;
   width: 100%;
 }
 
@@ -2429,7 +2428,6 @@ footer h6 {
 }
 
 .Contact-Us--titre {
-  margin-top: 20px;
   color: #000000;
   font-size: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -2484,7 +2482,7 @@ footer h6 {
 }
 
 .message-logo {
-  width: 70px;
+  width: 30px;
   height: auto;
   border: 1px rgba(0, 0, 0, 0.098) solid;
   background-color: #ecf1f5;
@@ -2493,21 +2491,19 @@ footer h6 {
 }
 
 .contact-page input {
-  padding: 10px;
-  padding-left: 20px;
-  box-sizing: content-box !important;
+  padding-left: 15px;
   display: flex;
   margin: 20px 0;
   width: 94%;
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 35px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 ::placeholder {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .contact-page textarea {
@@ -2520,7 +2516,7 @@ footer h6 {
   height: 150px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #afafaf;
 }
