@@ -2362,12 +2362,6 @@ footer input {
 footer h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  margin-top: 50px;
-}
-
-.contact-page .contact-réseaux {
-  width: 50px;
-  margin: 15px;
 }
 
 #bottom__footer {
@@ -2543,7 +2537,7 @@ footer h6 {
   text-align: center;
 }
 
-.contact-réseaux {
+.contact-page .contact-réseaux {
   width: 20px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
