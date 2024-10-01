@@ -2241,6 +2241,11 @@ footer img {
   height: auto;
 }
 
+.réseaux{
+    width: 25px;
+    margin: 15px;
+}
+
 #top-footer {
   display: flex;
   justify-content: space-between;
@@ -2535,7 +2540,7 @@ footer h6 {
   text-align: center;
 }
 
-.réseaux {
+.contact-réseaux {
   width: 35px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
