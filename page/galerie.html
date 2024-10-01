@@ -250,13 +250,24 @@
       </nav>
 
       <nav class="mobile-nav">
-        <div class="menu-burger"></div>
+        <div class="menu-burger-container">
+          <div class="menu-burger"></div>
+        </div>
         <img src="../assets/search.svg" />
-        <a style="margin: 20px auto" href="../index.html">
-          <img style="width: 100%" src="../assets/logo.svg" />
+        <a style="margin: 20px auto" href="index.html">
+          <img src="../assets/logo.svg" />
         </a>
         <img src="../assets/user.svg" />
         <img src="../assets/panier.svg" />
+
+        <section class="slider-nav">
+          <span class="close-slider-nav"></span>
+          <ul class="slider-onglet-container">
+            <a href="../index.html">Acceuil</a>
+            <a href="./galerie.html">Toutes les saveurs</a>
+            <a href="./contact.html">Nous contacter</a>
+          </ul>
+        </section>
       </nav>
       <section id="galerie-pub">
         <section class="bas">
@@ -760,5 +771,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src="../script.js"></script>
   </body>
 </html>
