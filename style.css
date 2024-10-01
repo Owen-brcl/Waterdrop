@@ -43,6 +43,32 @@ html {
     font-size: 21px;
   }
 
+  #icons-for-understand-container {
+    padding: 50px 0 !important;
+    height: 100vh !important;
+  }
+
+  .icons-big-title {
+    margin-bottom: 55px !important;
+    margin-top: -30px !important;
+  }
+
+  #icons-for-understand-container::after {
+    transform: rotate(90deg);
+    background-position: bottom !important;
+    bottom: -223px !important;
+    top: unset !important;
+    background-size: 100% !important;
+  }
+
+  #icons-for-understand-container section {
+    flex-direction: column !important;
+  }
+
+  .background-water {
+    width: 132% !important;
+  }
+
   .image-info {
     top: 60% !important;
   }
@@ -206,13 +232,22 @@ html {
 
   #icons-for-understand-container section {
     margin: 0 20px !important;
-    gap: 1% !important;
+    gap: 15% !important;
   }
 
   .daily-hydratation-container {
     display: block !important;
     margin: 50px 20px -240px 20px !important;
     padding: 0 !important;
+  }
+
+  .icons-for-understand::before {
+    bottom: -19px !important;
+    left: -7px !important;
+  }
+
+  .icons-big-title {
+    text-align: center;
   }
 
   .daily-hydratation-button-container {
