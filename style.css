@@ -2534,11 +2534,11 @@ footer h6 {
 }
 
 .contact-page .contact-réseaux {
-  width: 10px;
+  width: 20px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   background-color: #ecf1f5;
 }
 
