@@ -2459,19 +2459,19 @@ footer h6 {
 }
 
 .message-button {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.098);
-  border-radius: 25px;
-  /*padding: 0% 15px;*/
-  background-color: #ffffff;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  gap: 10px;
-  width: 300px;
-  margin: 10px;
-  height: 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    border-radius: 25px;
+    padding: 0% 15px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+    width: 300px;
+    margin: 10px;
+    height: 100px;
 }
 
 .message-button div {
