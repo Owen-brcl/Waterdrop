@@ -2484,7 +2484,7 @@ footer h6 {
 }
 
 .message-logo {
-  width: auto;
+  width: 50px;
   height: auto;
   border: 1px rgba(0, 0, 0, 0.098) solid;
   background-color: #ecf1f5;
@@ -2537,7 +2537,7 @@ footer h6 {
 }
 
 .contact-page .contact-réseaux {
-  width: 50px;
+  width: 30px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 10px;
