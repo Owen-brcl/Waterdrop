@@ -2158,7 +2158,7 @@ p {
 
 footer {
   background-color: #f8f8f8;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #gray {
@@ -2168,7 +2168,6 @@ footer {
 footer img {
   width: 135px;
   height: auto;
-  padding: 25px 0
 }
 
 #top-footer {
@@ -2274,6 +2273,7 @@ footer input {
 #bouton {
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
   width: auto;
   height: 45px;
   background-color: black;
