@@ -2464,7 +2464,7 @@ footer h6 {
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 25px;
-  padding: 0% 15px;
+  /*padding: 0% 15px;*/
   background-color: #ffffff;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
