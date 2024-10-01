@@ -2357,12 +2357,12 @@ footer input {
   color: #ffffff;
   border: none;
   border-radius: 3px;
-  margin-bottom: 20px;
 }
 
 footer h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
+  margin-top: 50px;
 }
 
 .contact-page .contact-réseaux {
