@@ -2415,7 +2415,8 @@ footer h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0px;
+  margin: 10% 0px;
+  padding: 0 5%;
   width: 100%;
 }
 
@@ -2428,6 +2429,7 @@ footer h6 {
 }
 
 .Contact-Us--titre {
+  margin-top: 20px;
   color: #000000;
   font-size: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -2483,7 +2485,7 @@ footer h6 {
 }
 
 .message-logo {
-  width: 60px;
+  width: 70px;
   height: auto;
   border: 1px rgba(0, 0, 0, 0.098) solid;
   background-color: #ecf1f5;
@@ -2492,7 +2494,7 @@ footer h6 {
 }
 
 .contact-page input {
-  padding-left: 15px;
+  padding-left: 20px;
   box-sizing: content-box !important;
   display: flex;
   margin: 20px 0;
@@ -2536,7 +2538,7 @@ footer h6 {
 }
 
 .contact-page .contact-réseaux {
-  width: 60px;
+  width: 30px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 10px;
