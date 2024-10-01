@@ -709,10 +709,14 @@ html {
   left: 0;
   width: 100%;
   height: 110%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   filter: blur(2px);
   backdrop-filter: blur(4px);
   z-index: -1;
+}
+
+.desktop-nav {
+  transition: background 0.2s;
 }
 
 .slider-nav {
@@ -805,6 +809,10 @@ li {
 .third:hover .third-sub,
 .fourth:hover .fourth-sub {
   display: flex;
+}
+
+.first:hover {
+  $xx: 1;
 }
 
 .onglet-container {
@@ -1423,44 +1431,12 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 400px 0;
-  padding: 150px 0;
+  margin: 200px 0;
+  padding: 200px 0 250px 0;
   gap: 50px;
   background: rgba(180, 3, 98, 0.7);
   color: rgba(180, 3, 98, 0.5);
 }
-
-/* .wave { */
-/*   position: absolute; */
-/*   top: -60%; */
-/*   left: 0; */
-/*   width: 100%; */
-/*   height: 60%; */
-/*   background: rgba(180, 3, 98, 0.45); */
-/* } */
-/**/
-/* .wave::after { */
-/*   content: ""; */
-/*   position: absolute; */
-/*   border-radius: 100%; */
-/*   width: 70%; */
-/*   height: 130%; */
-/*   background: white; */
-/*   left: -280px; */
-/*   top: -88%; */
-/* } */
-/**/
-/* .wave::before { */
-/*   content: ""; */
-/*   position: absolute; */
-/*   border-radius: 100%; */
-/*   width: 70%; */
-/*   height: 130%; */
-/*   background: blue; */
-/*   transform: rotate(180deg); */
-/*   right: -200px; */
-/*   top: -35%; */
-/* } */
 
 #icons-for-understand-container::after {
   content: "";
@@ -1468,7 +1444,7 @@ img {
   width: 100%;
   height: 100%;
   background: url("./assets/red-fruits.png");
-  background-size: 70%;
+  background-size: 93%;
   background-repeat: repeat-y;
   background-position: right;
   top: 0px;
@@ -2359,9 +2335,9 @@ footer img {
   height: auto;
 }
 
-.footer-réseaux{
-    width: 25px;
-    margin: 15px;
+.footer-réseaux {
+  width: 25px;
+  margin: 15px;
 }
 
 #top-footer {
@@ -2574,19 +2550,19 @@ footer h6 {
 }
 
 .message-button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    border: 1px solid rgba(0, 0, 0, 0.098);
-    border-radius: 25px;
-    padding: 0% 15px;
-    background-color: #ffffff;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    gap: 10px;
-    width: 300px;
-    margin: 10px;
-    height: 100px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.098);
+  border-radius: 25px;
+  padding: 0% 15px;
+  background-color: #ffffff;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 10px;
+  width: 300px;
+  margin: 10px;
+  height: 100px;
 }
 
 .message-button div {
