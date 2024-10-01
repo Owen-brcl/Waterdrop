@@ -2432,6 +2432,7 @@ footer h6 {
   font-size: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
+  margin-bottom: 50px;
 }
 
 .contact-page h1 {
@@ -2492,10 +2493,11 @@ footer h6 {
 
 .contact-page input {
   padding-left: 15px;
+  box-sizing: content-box !important;
   display: flex;
   margin: 20px 0;
   width: 94%;
-  height: 50px;
+  height: 40px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 35px;
   font-size: 18px;
@@ -2534,7 +2536,7 @@ footer h6 {
 }
 
 .contact-page .contact-réseaux {
-  width: 20px;
+  width: 30px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.098);
   border-radius: 10px;
