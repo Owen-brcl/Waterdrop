@@ -2350,13 +2350,13 @@ footer input {
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  display: flex;
-  justify-content: center;
   width: auto;
   height: 45px;
   background-color: black;
   font-size: 15px;
   color: #ffffff;
+  border: none;
+  border-radius: 3px;
 }
 
 footer h6 {
